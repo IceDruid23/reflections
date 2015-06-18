@@ -1,6 +1,6 @@
 git clone http... -- cloneaza un repository de pe internet
 git branch -- arata toate ramurile
-git branch add (nume) --creaza ramura noua
+git branch (nume) --creaza ramura noua
 git log --arata lista cu commiturile
 git log --graph --oneline (ramuri(master+..)) -- arata commituri mai multe ramuri, versine cod+denumire
 git diff file1 file2 --arata diferentele dintre 2 fisiere
