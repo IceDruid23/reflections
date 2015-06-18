@@ -12,6 +12,8 @@ git remote -- vizualizeaza remote-urile curente
 git remote add origin(standard cand ai doar un remote) http..(adresa repository github) --conectare repository local cu cel de pe git hub
 git init --initiaza un nou repository local :D
 git status -- arata statusul actual al repository si daca e sincronizat cu cel online(daca e cazul)
+ls --listeaza fisiere dintr-un folder
+ls -a --listeaza si fisiere ascunse
 cd-change directory
 cd ..--du-te in directory-ul superior
 cd - --du-te in directory-ul anterior
@@ -25,3 +27,4 @@ git pull origin master -- update varianta locala cu cea de pe github
 git fetch origin master -- ia de pe net variana de la github dar le pastreaza separate(vezi linia 22 pentru uniune)
 git add (nume fisier) --adauga in staging area fisier nou sau update la fisier existent
 git commit --creaza commit cu modificarile adaugate in staging area
+git remote -v --arata detalii despre adresa remote cu care esti conectat
