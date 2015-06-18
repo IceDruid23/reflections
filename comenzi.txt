@@ -3,6 +3,7 @@ git branch -- arata toate ramurile
 git branch (nume) --creaza ramura noua
 git log --arata lista cu commiturile
 git log --graph --oneline (ramuri(master+..)) -- arata commituri mai multe ramuri, versine cod+denumire
+git log -n 1(sau cate vrei tu) -- arata ultimele n commit-uri
 git diff file1 file2 --arata diferentele dintre 2 fisiere
 git diff --arata diferenta dintre working space si staging area
 git diff --staged --arata diferentele dintre staging area si ultimul commit
