@@ -23,3 +23,5 @@ git merge master origin/master --uneste repository local cu cel de pe github
 git push origin master -- update github cu varianta ta locala
 git pull origin master -- update varianta locala cu cea de pe github
 git fetch origin master -- ia de pe net variana de la github dar le pastreaza separate(vezi linia 22 pentru uniune)
+git add (nume fisier) --adauga in staging area fisier nou sau update la fisier existent
+git commit --creaza commit cu modificarile adaugate in staging area
